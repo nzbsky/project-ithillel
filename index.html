@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
-    <header class="header">
-        <a class="header-logo" href="">
-            <img src="./img/logo.svg" alt="logo UpDate">
+       <header class="conteiner header">
+        <div class="header-box">
+            <a class="header-logo" href="./index.html">
+            <img class="header-img" src="./img/logo.svg" alt="logo UpDate">
             UpDate
         </a>
-        <nav>
-            <ul>
+        <nav class="header-nav">
+            <ul class="header-list">
                <a href=""> <li>Courses <img src="./img/Courses.svg" alt=""></li></a>
                <a href=""> <li>Teachers</li></a>
                <a href=""><li>Blog</li></a>
             </ul>
-            <ul>
-                <li><a href="">En <img src="./img/Courses.svg" alt=""></a></li>
-                <li><a href="">Sign in</a></li>
-                <li><a href="">Trail free</a></li>
-            </ul>
-        </nav>
+             </nav>
+        </div>
+                <div class="btn-box">
+                    <a href="#">En <img src="./img/Courses.svg" alt=""></a>
+                <a href="#">Sign in</a>
+                <a class="btn-box-button" href="#">Trail free</a>
+                </div>
+            
+      
     </header>
-    <main>
+    <main class="main">
+       
         <section class="hero">
+          
             <img src="./img/Ellipse1.png" alt="">
             <h1 class="hero-logo">Explore thousands of hands-on creative classes.</h1>
             <p class="hero-p"> Start learning for <span>free</span></p>
@@ -38,6 +45,7 @@
             <p class="hero-time">
               <time datetime="">  24 Days 17:44:16</time>
             </p>
+             <img src="./img/Ellipse2.png" alt="">
             <ul class="hero-prof">
                 <a href="">
                     <li>Marketer</li>
@@ -58,9 +66,10 @@
                     <li>Photographer</li>
                 </a>
             </ul>
-            <img src="./img/Ellipse2.png" alt="">
+             
             <img src="./img/Rectangle 107.png" alt="">
             <img src="./img/hero.png" alt="">
+          
         </section>
         <section class="learn">
             <div class="learn-text">
